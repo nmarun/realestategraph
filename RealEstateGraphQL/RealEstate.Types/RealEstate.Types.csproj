@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\graphql-dotnet-master\graphql-dotnet-master\src\GraphQL\GraphQL.csproj" />
+    <ProjectReference Include="..\RealEstate.DataAccess\RealEstate.DataAccess.csproj" />
+    <ProjectReference Include="..\RealEstate.Database\RealEstate.Database.csproj" />
+  </ItemGroup>
+
+</Project>
