@@ -6,13 +6,13 @@
     <None Remove="appsettings.json" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="GraphQL" Version="2.4.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.3" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\graphql-dotnet-master\graphql-dotnet-master\src\GraphQL\GraphQL.csproj" />
     <ProjectReference Include="..\RealEstate.Utilities\RealEstate.Utilities.csproj" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\graphql-dotnet-master\graphql-dotnet-master\src\GraphQL\GraphQL.csproj" />
+    <PackageReference Include="GraphQL" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\RealEstate.DataAccess\RealEstate.DataAccess.csproj" />
     <ProjectReference Include="..\RealEstate.Database\RealEstate.Database.csproj" />
   </ItemGroup>

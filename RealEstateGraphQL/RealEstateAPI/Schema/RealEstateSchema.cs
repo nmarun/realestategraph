@@ -7,7 +7,7 @@ namespace RealEstate.API.Schema
 {
     public class RealEstateSchema : GraphQL.Types.Schema
     {
-        public RealEstateSchema(IServiceProvider serviceProvider) : base(serviceProvider)
+        public RealEstateSchema(IServiceProvider serviceProvider) : base()
         {
             Query = serviceProvider.GetRequiredService<PropertyQuery>();
             Mutation = serviceProvider.GetRequiredService<PropertyMutation>();

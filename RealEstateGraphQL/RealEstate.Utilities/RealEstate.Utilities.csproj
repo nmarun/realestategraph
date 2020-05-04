@@ -5,11 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="GraphQL" Version="2.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\graphql-dotnet-master\graphql-dotnet-master\src\GraphQL\GraphQL.csproj" />
   </ItemGroup>
 
 </Project>
